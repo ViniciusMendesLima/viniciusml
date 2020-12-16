@@ -501,6 +501,9 @@ footer{
 
 @media (max-width: 520px) {
     /*------------------MENU-------------------------*/
+    body{
+        margin-left: -2.5rem;
+    }
     .sidebar{
         width:20rem ;
         height: 100%;
@@ -517,7 +520,7 @@ footer{
     }
     
     .hamburguer{
-        right: 3rem;
+        right: 4rem;
         top: 2rem;
     }
 
@@ -540,26 +543,16 @@ footer{
 
    
 /*------------------CONHECIMENTO-------------------------*/
+ 
     .sessao-header h1{
         font-size: 2rem;
     }
-    .conhecimento-img-wrapper {
-        visibility: hidden;
-    }
-    .conhecimento-img-wrapper img{
-        margin-bottom: -20rem;
-    }
+
     .conhecimentos {
         display: inline-block;
-        margin-left: 0.5rem;
     }
-    .conhecimento-header i{
-        font-size: 2rem;
-    }
-    .conhecimento-header h3{
-        font-size: 1.5rem;
-    }
-    .conhecimento-text{
+
+    .conhecimento-text p{
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
@@ -574,16 +567,18 @@ footer{
 
     .card-img-wrapper {
         width: 80%;
-        height: 80%;
+        height: 83%;
     }
-    .card:hover .card-img-wrapper img{
-        opacity: 1;
+    .card-img-wrapper img{
+      opacity: 0.3;  
     }
     .card-info{
         opacity: 1;
         visibility: visible;
         transition: none;
         bottom: 4rem;
+        margin-left: 0;
+        margin-right: 3rem;
     }
     .card:hover .card-info{
         bottom: 4rem;
@@ -596,76 +591,60 @@ footer{
         font-size: 1rem;
     }
     .card-info p{
-        font-size: 0.9rem;
-        line-height: 1.2rem;
+        font-size: 1rem;
         text-align: justify;
-            }
-    .card-info button {
-        width: 11rem;
-        height: 1.5rem;
+        font-weight: bolder;
+    }
+    .card  {
+        text-align: center;
+
+
     }
 /*------------------CONTATO-------------------------*/
+    .sessao-contato{
+        height: 70vh;
+    }    
     .contato-left{
         background: none;
     }
      .contato-wrapper{
-        width: 85%;
+        width: 64%;
         height: 80%;
+        margin-left: -2rem;
+    }
+    .contato-right{
+        width: 64%;
+        margin:0;
+    }
+    .field-label-mail {
+
+        margin-left: -2.7rem;
     }
     .field{
         width: 16rem;
     }
-    .btn-submit{
-        width: 100%;
-        height: 1.5rem;
+    .qrcode{
+        display: none;
     }
 
-/*------------------ORÇAMENTO-------------------------*/
-    .orcamento-wrapper{
-        width: 97%;
-        height: 100%;
-        
-    }
-    .sessao-orcamento h1 {
-        font-size: 1.5rem;
-        top: -1.5rem;
-        left: -1rem;
-    }
-    .sessao-orcamento form{
-        margin: 1rem 1rem 1rem 1rem;
-        display: block;
-    }
-    .sessao-orcamento input[type="number"],.sessao-orcamento input[type="checkbox"], .sessao-orcamento input[type="range"],.btn-orcamento{
-        display: flex;
-    }
-    .sessao-orcamento label {
-        line-height: 3rem;
-    }
-    .sessao-orcamento input[type="radio"] {
-        margin-left: 2rem;
-    }
-    .sessao-orcamento input[type="range"]{
-        width: 90%;
-    }
-    .btn-orcamento{
-        margin-top: 1rem;
-        margin-left: 6rem;
-    }
 /*------------------RODAPE-------------------------*/
    
 .footer-content {
         width: 92%;
         display:inline-table;
+        margin-left: 3.5rem;
+
     }
     .footer-content p {
         padding-top: 1rem;
     }
     .social-list li{
-        margin-right: 1rem;
         margin-top: 1rem;
+        margin-right: -1rem;
+        
     }
     #link-topo{
-        right: 3rem;
+        right: 4rem;
     }
 
 }
