@@ -505,22 +505,23 @@ footer{
         margin-left: -2.5rem;
     }
     .sidebar{
-        width:20rem ;
+        width:15rem ;
         height: 100%;
     }
     .menu{
-        left: 45%;
+        left: 50%;
+        margin-left: 1rem;
     }
     .menu-item{
         margin-bottom: 1.5rem;
     }
     .menu-link{
         font-size: 1.3rem;
-        margin-right: 8rem;
+        margin-right: 2rem;
     }
     
-    .hamburguer{
-        right: 4rem;
+    .show-menu .hamburguer{
+        right: 12rem;
         top: 2rem;
     }
 
@@ -609,7 +610,7 @@ footer{
     }
      .contato-wrapper{
         width: 64%;
-        height: 80%;
+        height: 85%;
         margin-left: -2rem;
     }
     .contato-right{
@@ -628,10 +629,14 @@ footer{
     }
 
 /*------------------RODAPE-------------------------*/
-   
-.footer-content {
+   footer{
+       height: 5rem;
+   }
+    .footer-content {
         width: 92%;
+        height: 10%;
         display:inline-table;
+
         margin-left: 3.5rem;
 
     }
