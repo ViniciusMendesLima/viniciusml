@@ -509,7 +509,7 @@ footer{
         height: 100%;
     }
     .menu{
-        left: 50%;
+        left: 25%;
         margin-left: 1rem;
     }
     .menu-item{
@@ -517,7 +517,7 @@ footer{
     }
     .menu-link{
         font-size: 1.3rem;
-        margin-right: 2rem;
+        margin-right: 0;
     }
     
     .show-menu .hamburguer{
@@ -526,7 +526,7 @@ footer{
     }
 
     .social-media{
-        width: 55%;
+        width: 63%;
     }
     .img-wrapper img{
         animation: none;
@@ -610,7 +610,7 @@ footer{
     }
      .contato-wrapper{
         width: 64%;
-        height: 85%;
+        height: 88%;
         margin-left: -2rem;
     }
     .contato-right{
