@@ -285,6 +285,24 @@ header{
     margin-bottom: 1.5rem;
 
 }
+.cursos-adicionais h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.cursos-adicionais p, a{
+    font-size: 1.5rem;
+    color: #4b4b4b;
+    font-weight: bold;
+}
+.cursos-adicionais a{
+    text-decoration: underline;
+}
+.curso-imagem img{
+    width: 6rem;
+    height: 6rem;
+
+
+}
 
 /*------------------PROJETOS-------------------------*/
 
