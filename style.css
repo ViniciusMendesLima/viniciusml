@@ -575,6 +575,28 @@ footer{
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
+
+    .conhecimento-text p{
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    
+    }
+    .cursos-adicionais h2{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .cursos-adicionais p, a{
+        font-size: 1.2rem;
+    }
+    .cursos-adicionais a{
+        text-decoration: underline;
+    }
+    .curso-imagem img{
+        width: 4rem;
+        height: 4rem;
+    
+    
+    }
 /*------------------PROJETOS-------------------------*/
     .projetos{
         display: inline-block;
