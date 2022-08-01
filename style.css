@@ -221,7 +221,9 @@ header{
     bottom: 2rem;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    gap: 2.5rem;
+    justify-content: center;
+
 }
 
 .social-media i{
@@ -480,8 +482,7 @@ footer{
 .footer-content{
     width: 60%;
     display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
+    gap: 16rem;
 }
 
 .footer-content p{
