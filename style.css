@@ -375,11 +375,20 @@ header{
 }
 
 .card-info a{
-    width: 8rem;
-    height: 2.5rem;
-    padding: 3px
+    font-size: 1rem;
+    width: 5.2rem;
+    height: 1.3rem;
+    padding: 2px;
+    justify-self: center;
+    text-align: center;
 }
 
+.card-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
 .card:hover .card-info{
     bottom: .5rem;
     opacity: 1;
@@ -591,6 +600,7 @@ footer{
         font-size: 1.2rem;
     }
     .cursos-adicionais a{
+        font-size: .5;
         text-decoration: underline;
     }
     .curso-imagem img{
