@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif; 
+    
+  }
+  
+  a{
+    text-decoration: none;
+    color: var(--color-white);
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  img{
+    max-width: 100%;
+  }

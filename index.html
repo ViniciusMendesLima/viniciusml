@@ -1,210 +1,219 @@
 <!DOCTYPE html>
-<html lang="por_BR">
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfólio de Vinícius Mendes Lima, Desenvolvedor Web Front End Júnior">
+        <title>Vinícius Mendes Lima</title>
+        <link rel="shortcut icon" href="src/images/logovml.png" type="image/x-icon">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <title>Vinícius Mendes</title>
-</head>
+        <link rel="stylesheet" href="src/css/reset.css">
+        <link rel="stylesheet" href="src/css/variables.css">
+        <link rel="stylesheet" href="src/css/all.css">
+        <link rel="stylesheet" href="src/css/header.css">
+        <link rel="stylesheet" href="src/css/presentation.css">
+        <link rel="stylesheet" href="src/css/about.css">
+        <link rel="stylesheet" href="src/css/skills.css">
+        <link rel="stylesheet" href="src/css/projects.css">
+        <link rel="stylesheet" href="src/css/footer.css">
+        <link rel="stylesheet" href="src/css/media-query.css">
 
-<body>
-    <div class="container">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-        <div class="hamburguer">
-            <div class="line" id="line1"></div>
-            <div class="line" id="line2"></div>
-            <div class="line" id="line3"></div>
-            <span>fechar</span>
-        </div>
-
-        <header id="home">
-            <div class="img-wrapper">
-                <img src="imagens/bg.jpg" alt="">
-            </div>
-            <div class="banner">
-                <img src="imagens/foto.png" alt="imagem foto">
-                <p>Vinícius Mendes Lima</p>
-                <a class="btn" href="#conhecimentos">Saiba mais</a>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="src/images/logovml.png" alt="logo">
+                </a>
+                <nav>
+                  <input id="menu-hamburguer" type="checkbox">
+        
+                  <label for="menu-hamburguer">
+                    <div class="menu">
+                      <span class="hamburguer"></span>
+                    </div>
+                  </label>
+        
+                  <ul>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Meus projetos</a></li>
+                  </ul>
+                </nav>
             </div>
         </header>
 
-        <aside class="sidebar">
-            <nav>
-                <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Sobre min</a></li>
-                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
-                </ul>
-            </nav>
-            <div class="social-media">
-                <a href="https://github.com/ViniciusMendesLima" target="_blank"><i class="fab fa-github-alt"></i></a>
-                <a href="https://www.linkedin.com/in/vinicius-mendes-lima-73409872" target="_blank"><i
-                        class="fab fa-linkedin-in"></i></a>
+        <section class="prasentation">
+            <div class="container">
+                <div class="job-name">
+                    <h1>Vinícius Mendes Lima</h1>
+                    <p>Desenvolvedor Web Front End Júnior</p>
+                    <p>| HTML5 | CSS3 | Git | GitHub |</p>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/vinicius-mendes-lima-73409872" target="_blank" class="outer-shadow">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://wa.me/5531999647662" target="_blank" class="outer-shadow">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://github.com/ViniciusMendesLima" target="_blank" class="outer-shadow">
+                            <i class="fab fa-github"></i>
+                        </a>  
+                    </div>
+                  <a class="mail outer-shadow">
+                    <i class="fa fa-envelope"></i>
+                    <p class="e-mail-main">viniciusmendeslima@yahoo.com</p> 
+                  </a>
+                </div>
+                <div class="fotos">
+                  <div class="centralize-fotos">
+                    <img src="src/images/foto2.png" alt="Foto Vinícius Mendes">
+                    <img src="src/images/foto-computadores.jpg" alt="Computadores">
+                  </div>
+                </div>
+            </div> 
+        </section> 
+
+        <section class="about padding-top" id="sobre-mim">
+            <div class="description">
+              <h2>Sobre Mim </h2>
+              <p>
+                Profissional em transição para desenvolvimento web, formado em Sistemas de Informação e com experiência em diversas áreas, como logística, atendimento e auditoria.
+              </p>
+              <p>
+                Possuo conhecimentos práticos em <strong>HTML5, CSS3, Clean Code e Git/GitHub</strong>, além de estar me aprofundando em <strong>JavaScript, React, TypeScript e testes automatizados com JEST</strong>. 
+              </p>
+    
+              <p>
+                Busco aplicar minhas habilidades técnicas e interpessoais na criação de soluções inovadoras, com foco em aprendizado contínuo e crescimento profissional.
+              </p>   
             </div>
-        </aside>
+            <div class="buttom-cv">
+                <a target="_blank" href="src/file/cv.pdf" class="outter-shadow">Veja meu CV</a>
+              </div>
+          </section>
 
-        <section class="sessao-conhecimentos" id="conhecimentos">
-            <div class="sessao-header">
-                <h1>Sobre mim</h1>
+          <section class="skills padding-top" id="habilidades">
+            <h2>Habilidades</h2>       
+            <div class="container-skills row">
+              <!-- <div class="skill">
+                <div class="logo">
+                  <i class="devicon devicon-javascript-plain"></i>
+                </div>
+                <h3>JavaScript</h3>
+                <p>JavaScript é uma linguagem de programação de alto nível, dinâmica e amplamente utilizada no desenvolvimento web. Ele permite criar interatividade em páginas da web, manipulando elementos, respondendo a eventos e realizando requisições.</p>
+              </div> -->
+            
+              <div class="skill">
+                <div class="logo">
+                  <i class="devicon devicon-html5-plain-wordmark"></i>
+                </div>
+                <h3>HTML5</h3>
+                <p> <abbr title="HyperText Markup Language">HTML</abbr> é a linguagem de marcação usada para estruturar páginas da web. Ele define elementos como títulos, parágrafos, imagens, links e tabelas, organizando o conteúdo para exibição nos navegadores. </p>
+              </div>
+            
+              <div class="skill">
+                <div class="logo">
+                  <i class="devicon devicon-css3-plain-wordmark"></i>
+                </div>
+                <h3>CSS3</h3>
+                <p><abbr title="ascading Style Sheets">CSS</abbr> é a linguagem usada para estilizar páginas da web, definindo cores, fontes, layouts e responsividade. Ele permite separar a estrutura (<abbr title="HyperText Markup Language">HTML</abbr>) da apresentação, tornando o design mais flexível e eficiente. </p>
+              </div>
+            
+              <div class="skill">
+                <div class="logo">
+                  <i class="devicon devicon-github-original"></i>
+                </div>
+                <h3>GitHub</h3>
+                <p>GitHub é uma plataforma de hospedagem de código que facilita o controle de versão e a colaboração em projetos usando Git</p>
+              </div>
+        
+              <div class="skill">
+                <div class="logo">
+                  <i class="devicon devicon-git-plain"></i>
+                </div>
+                <h3>Git</h3>
+                <p>Git é um sistema de controle de versão distribuído que permite gerenciar e rastrear alterações em projetos de software.</p>
+              </div>
             </div>
-            <div class="conhecimentos">
-                <div class="conhecimento">
-                    <div class="conhecimento-text">
-                        <p>Moro em Belo Horizonte - Minas Gerais</p>
-                        <p>Sou formado em Sistemas de Informações pela Faculdade Pitágoras.</p>
-                        <p>Conhecimento em HTML5, CSS3 E JavaScript.</p>
-                        <p>Tenho conhecimento do pacote Office, com ênfase no uso do Word e PowerPoint para apresentações, além da criação e montagem de planilhas no Excel para gerar relatórios.</p>
-                    </div>
-                </div>
+          </section>
+
+          <section class="projects" id="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="container-projects">
+              <div class="project selected">
+                <a href="https://viniciusmendeslima.github.io/site_corretor/" target="_blank">
+                  <img src="src/images/corretor.png" alt="Site Corretor">
+                  <div class="project-information">
+                    <h3>Site single page para Corretor</h3>
+                    <p>Site single page para divulgação de Corretor desenvolvido com base no template disponível em Wix.com</p>
+                    <p>🔗 Ver no GitHub Pages</p>
+                  </div>
+                </a>
+              </div>
+        
+              <div class="project">
+                <a href="https://viniciusmendeslima.github.io/Testimonials-grid-section/" target="_blank">
+                  <img src="src/images/grad-de-depoimentos.png" alt="Grid de depoimentos">
+                  <div class="project-information">
+                    <h3>Seção de grid de depoimentos</h3>
+                    <p>Esta é uma solução para o desafio da seção Testimonials grid no Frontend Mentor</p>
+                    <p>🔗 Ver no GitHub Pages</p>
+                  </div>
+                </a>
+              </div>
+        
+              <div class="project">
+                <a href="https://viniciusmendeslima.github.io/Bento-grid/" target="_blank">
+                  <img src="src/images/bento-grid.jpeg" alt="Bento grid">
+                  <div class="project-information">
+                    <h3>Frontend Mentor - Bento grid</h3>
+                    <p>Esta é uma solução para o Frontend Mentor - Bento grid</p>
+                    <p>🔗 Ver no GitHub Pages</p>
+                  </div>
+                </a>
+              </div>
+        
+              <div class="project">
+                <a href="https://viniciusmendeslima.github.io/Quest-HTML-CSS-Avan-ado/" target="_blank">
+                  <img src="src/images/tela-projeto-desktop.png" alt="NHuddle landing page with a single introductory section">
+                  <div class="project-information">
+                    <h3>Huddle landing page with a single introductory section</h3>
+                    <p>Esta é uma solução para o para o quest do curso DevQuest Full-Stack baseado no desafio do Frontend Mentor</p>
+                    <p>🔗 Ver no GitHub Pages</p>
+                  </div>
+                </a>
+              </div>
             </div>
-
-
-        </section>
-
-        <section class="sessao-projetos" id="projetos">
-            <div class="sessao-header">
-                <h1>Projetos</h1>
+            <div class="buttons">
+                <div id="back">&larr;</div>
+                <div id="next">&rarr;</div>
+              </div>
+          </section>
+          <footer>
+            <div class="container">
+              <h2>Me envie uma mensagem!</h2>
+              <div class="social-media">
+                <a href="https://www.linkedin.com/in/vinicius-mendes-lima-73409872" target="_blank" class="outer-shadow">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://wa.me/5531999647662" target="_blank" class="outer-shadow">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://github.com/ViniciusMendesLima" target="_blank" class="outer-shadow">
+                    <i class="fab fa-github"></i>
+                </a>  
             </div>
-            <div class="projetos">
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="imagens/corretor.png" alt="site para corretor">
-                    </div>
-                    <div class="card-info">
-                        <h2>Site single page para Corretor</h2>
-                        <h3>HTML, CSS & JavaScript</h3>
-                        <p>Site single page para divulgação de Corretor desenvolvido com base no template disponível em
-                            <a class="link-fonte" href="https://pt.wix.com/website-template/view/html/2401?siteId=f70be6e6-1c35-4773-989a-8a5b1201dbc5&metaSiteId=260202f7-d1d8-4a37-b84b-5db65fafd790&originUrl=https%3A%2F%2Fpt.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fbusiness%2Freal-estate%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3D12444131516%5E116269031497%26experiment_id%3D%5E%5E501715408447%5E%5E_DSA%26gclid%3DEAIaIQobChMI7be8lb7B9QIViIiRCh1GOQ1nEAAYAiAAEgINkvD_BwE&tpClick=view_button"
-                            >Wix.com</a>
-                        </p>
-                        <p>Site para Corretor</p>
-                        <div class="card-links">
-                            <a class="btn" href="https://viniciusmendeslima.github.io/site_corretor/" target="_blank">Veja</a>
-                            <a class="btn" href="https://github.com/ViniciusMendesLima/site_corretor" target="_blank">Repositório </a>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="imagens/google.png" alt="imagem do clone google">
-                    </div>
-                    <div class="card-info">
-                        <h2>Homepage do Google</h2>
-                        <h3>HTML & CSS</h3>
-                        <p>Código do vídeo "Homepage do Google com HTML & CSS | UI Clone #15" do YouTube da Rocketseat
-                        </p>
-                        <p>Tela inicial do Google com responsividade</p>
-                        <div class="card-links">
-                            <a class="btn" href="https://viniciusmendeslima.github.io/google/" target="_blank">Veja</a>
-                            <a class="btn" href="https://github.com/ViniciusMendesLima/google" target="_blank">Repositório </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="imagens/grad-de-depoimentos copy.png" alt="imagem do spotify" />
-                    </div>
-                    <div class="card-info">
-                        <h2>Seção de grid de depoimentos</h2>
-                        <h3>HTML, CSS, CSS Grid</h3>
-                        <p>Esta é uma solução para o desafio da seção Testimonials grid no Frontend Mentor</p>
-                        <div class="card-links">
-                            <a class="btn" href="https://viniciusmendeslima.github.io/Testimonials-grid-section/" target="_blank">Veja</a>
-                            <a class="btn" href="https://github.com/ViniciusMendesLima/Testimonials-grid-section" target="_blank">Repositório </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="imagens/tela.png" alt="imagem do projeto tela" />
-                    </div>
-                    <div class="card-info">
-                        <h2>Projeto Tela</h2>
-                        <h3>HTML, CSS</h3>
-                        <p>Código da serie de vídeos "Tela de Login e Cadastro Interativa - HTML5 & CSS3" do YouTube do
-                            Guilherme Chinaglia</p>
-                        <p>Tela de login e cadastro com animação CSS, utilizando apenas HTML e CSS.</p>
-                        <div class="card-links">
-                            <a class="btn" href="https://viniciusmendeslima.github.io/projetoTela/" target="_blank">Veja</a>
-                            <a class="btn" href="https://github.com/ViniciusMendesLima/projetoTela" target="_blank">Repositório </a>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="imagens/portifolio.png" alt="imagem do portifolio" />
-                    </div>
-                    <div class="card-info">
-                        <h2>Website completo</h2>
-                        <h3>HTML, CSS</h3>
-                        <p>Código da serie de vídeos "Website completo com HTML, CSS e JS " do YouTube do João Carlos
-                            Lima e Silva</p>
-                        <p>O site vai representar o portfólio de um programador, contendo os dados de contato</p>
-                        <div class="card-links">
-                            <a class="btn" href="https://viniciusmendeslima.github.io/portifolio/" target="_blank">Veja</a>
-                            <a class="btn" href="https://github.com/ViniciusMendesLima/portifolio" target="_blank">Repositório </a>
-                        </div>
-                    </div>
-                </div>
+          <a class="mail outer-shadow">
+            <i class="fa fa-envelope"></i>
+            <p class="e-mail-main">viniciusmendeslima@yahoo.com</p> 
+          </a>
             </div>
-        </section>
+          </footer>
 
-        <section class="sessao-contato" id="contato">
-            <div class="contato-wrapper">
-                <div class="contato-left"></div>
-                <div class="contato-right">
-                    <h1>Contato</h1>
-                    <div class="input-group">
-                        <label class="field-label">E-mail:</label>
-                        <label class="field-label-mail">viniciusmendeslima@yahoo.com</label>
-                    </div>
-                    <div class="cont-link">
-                        <div class="cont-item">
-                            <a href="https://www.linkedin.com/in/vinicius-mendes-lima-73409872" target="_blank">
-                                <img class="rede" src="imagens/Linkedin_icon.png" alt="Linkedin"></a>
-                            <img class="qrcode" src="imagens/QRCode_linkedin.svg" alt="QR Code Lindedin">
-                            <p>LinkedIn</p>
-                        </div>
-                        <div class="cont-item">
-                            <a href="https://github.com/ViniciusMendesLima" target="_blank">
-                                <img class="rede" src="imagens/Github_icon.png" alt="Github"></a>
-                            <img class="qrcode" src="imagens/QRCode_githubl.svg" alt="QR Code Github">
-                            <p>Github</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <div class="footer-content">
-                <p>
-                    Vinícius Mendes Lima. 2020
-                <div class="social-list">
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/vinicius-mendes-lima-73409872" target="_blank"><i
-                                    class="fab fa-linkedin"></i></a< /li>
-                        <li><a href="https://github.com/ViniciusMendesLima" target="_blank"><i
-                                    class="fab fa-github-alt"></i></a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </footer>
-        <a href="#home" id="link-topo">
-            <i class="fas fa-arrow-up">
-            </i>
-        </a>
-    </div>
-</body>
-<script src="script.js"></script>
-
+          <script src="src/js/script.js"></script>
+    </body>
 </html>

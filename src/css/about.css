@@ -1,0 +1,34 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    line-height: 1.7em;
+    gap: 10px;
+}
+
+
+.about .description p{
+    font-size: var(--fonte-normal);
+    text-align: center;
+}
+
+.about .buttom-cv{
+    margin-top: 3rem;
+    font-size: var(--fonte-grande);
+    font-weight: 700;
+    background-color: var(--color-4);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.about .buttom-cv:hover{
+    background-color: var(--color-1);
+}

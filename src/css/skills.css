@@ -1,0 +1,43 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills .container-skills{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px ;
+}
+
+.skills .container-skills .skill{
+    max-width: 350px;
+    padding: 0 20px;
+}
+
+.skills .container-skills .skill p,
+.skills .container-skills .skill h3,
+.skills .container-skills .skill .logo i{
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.skills .container-skills .skill h3{
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.skills .container-skills .skill p{
+    font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.skills .container-skills .skill i{
+    font-size: 8rem;
+}

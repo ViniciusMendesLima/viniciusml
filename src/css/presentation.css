@@ -1,0 +1,50 @@
+.prasentation .container{
+    flex-direction: column;
+}
+.prasentation .job-name{
+    background-color: var(--color-bg);
+    width: 100%;
+    min-height: 300px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.prasentation .job-name h1{
+    margin-top: 5rem;
+    font-size: var(--fonte-gigante);
+}
+
+.prasentation .job-name p{
+    font-size: var(--fonte-grande);
+    font-weight: 500;
+}
+
+.prasentation .fotos{
+    width: 100vw;
+    display: flex;
+    height: 548px;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, var(--color-bg) 0, var(--color-bg) 30%, var(--color-white) 30%);
+}
+
+.prasentation .fotos .centralize-fotos{
+    display: flex;
+    background-color: var(--color-1);
+    min-width: 90%;
+}
+
+.prasentation .fotos .centralize-fotos img{
+    width: 45%;
+}
+
+.prasentation .fotos .centralize-fotos img:nth-child(2){
+    width: 40%;
+    height: 60%;
+    margin: auto;
+}
+
