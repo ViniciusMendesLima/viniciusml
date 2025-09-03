@@ -10,7 +10,7 @@ Site de portfólio desenvolvido em **React** + **TypeScript** com Vite, apresent
 - CSS Modules
 - ESLint
 
-## 📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto 
 
 ```
 src/
