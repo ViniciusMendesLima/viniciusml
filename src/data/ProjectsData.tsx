@@ -31,7 +31,7 @@ const projectsMeta = [
 {
   file: "github-api",
   name: "GitHub API - Buscando Usuários",
-  link: "https://viniciusmlima.site/",
+  link: "https://viniciusmendeslima.github.io/projeto-inicial-fetch-github-api/",
   description:
     "Aplicação web que permite pesquisar usuários do GitHub e visualizar informações de perfil e repositórios públicos. Desenvolvida em React, utiliza a GitHub API e o método fetch para integração com dados em tempo real.",
 },
