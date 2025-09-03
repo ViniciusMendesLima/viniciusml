@@ -1,0 +1,16 @@
+.Footer{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.Footer div {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: .5rem;
+}
+
+.Footer a:hover{
+    opacity: .8;
+}

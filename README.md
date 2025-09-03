@@ -1,51 +1,35 @@
-# Portfólio - Vinícius Mendes Lima
+# Portfólio Pessoal - Vinicius
 
-Este é o código-fonte do meu portfólio como Desenvolvedor Web Front-End Júnior. Aqui apresento informações sobre minha trajetória, habilidades e projetos desenvolvidos.
+Site de portfólio desenvolvido em **React** + **TypeScript** com Vite, apresentando projetos, habilidades, informações pessoais e contato.
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
-**HTML5** - Estrutura do site.
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- CSS Modules
+- ESLint
 
-**CSS3** - Estilização e responsividade.
+## 📁 Estrutura do Projeto
 
-**JavaScript** - Interatividade e funcionalidades.
+```
+src/
+├── App.tsx
+├── main.tsx
+├── assets/           # Imagens e recursos estáticos
+├── components/       # Componentes reutilizáveis (MenuHamburguer, ProjectCard, etc)
+├── data/             # Dados dos projetos
+├── sections/         # Seções da página (About, Skills, Projects, Contact, etc)
+└── styles/           # CSS Modules
+```
 
-**Font Awesome** - Ícones.
+## 🧩 Padrões de Projeto
 
-**Devicon** - Ícones de tecnologias.
+- Componentização e reutilização de código
+- Organização por seções e componentes
+- Tipagem forte com TypeScript
+- Estilização com CSS Modules
 
-**Git/GitHub** - Controle de versão e hospedagem.
+---
 
-
-## Estrutura do Projeto
-![](src/images/estrutura%20do%20projeto.png)
-
-## Funcionalidades
-
-**Header** - Contem menu e Logo.
-
-**Seção "Prasentation"** - Contem nome, cargo, abilidades e links para redes sociais e e-mail
-
-**Seção "About"** - Breve descrição da minha trajetória profissional.
-
-**Seção "Skills"** - Lista das minhas principais competências.
-
-**Seção "Projects"** - Exibição de projetos desenvolvidos com links para visualização.
-
-**Footer** - Links para redes sociais e e-mail.
-
-## Como Visualizar
-
-1- Baixe o repositório ou clone com o comando:
-
-[git clone](https://github.com/ViniciusMendesLima/portf-lio-refatorado.git)
-
-2- Abra o arquivo __index.html__ no navegador.
-
-## Contato
-
-[LinkedIn](https://www.linkedin.com/in/vinicius-mendes-lima-73409872)
-
-[GitHub](https://github.com/ViniciusMendesLima)
-
-**E-mail:** viniciusmendeslima@yahoo.com
+Projeto desenvolvido para fins de portfólio e demonstração de habilidades em frontend

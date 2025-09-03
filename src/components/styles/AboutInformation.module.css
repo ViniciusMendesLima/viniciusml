@@ -1,0 +1,10 @@
+
+.Text{
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.Text p {
+    line-height: 2rem;
+    margin: 20px 0;
+}

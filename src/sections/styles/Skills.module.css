@@ -1,0 +1,22 @@
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.Skill{
+    text-align: center;
+
+}
+
+.Skill i{
+    font-size: 3rem;
+}
+
+.Skill p{
+font-size: 12px;
+font-weight: 500;
+margin-top: .5rem;
+}

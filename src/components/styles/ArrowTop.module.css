@@ -1,0 +1,21 @@
+.Arrow {
+    position: fixed;      
+    bottom: 20px;         
+    right: 10px;    
+    width: 3.5rem;      
+    z-index: 1000;        
+    cursor: pointer;      
+    border: none;         
+    background-color: transparent; 
+    color: var(--color-primary);
+    margin: 1rem;
+}
+
+.Arrow svg{
+    width: 3rem; 
+    transition: .5s; 
+}
+
+.Arrow svg:hover {
+width: 100%
+}

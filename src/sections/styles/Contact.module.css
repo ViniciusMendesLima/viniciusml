@@ -1,0 +1,61 @@
+.Contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 35rem;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.Contact form div {
+    width: 100%;
+}
+
+.Contact form input, .Contact form textarea {
+    width: 100%;
+    padding: .7rem;
+    border-radius: 10px;
+    border: 1px solid var(--color-light-dark);
+}
+
+.Contact button{
+    width: 50%;
+    padding: .7rem;
+    border-radius: 10px;
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.Contact button:hover{
+    font-weight: 600;
+    opacity: .9;
+}
+
+.FormFieldInput {
+  display: flex;
+  gap: 20px;
+}
+
+.FormFieldText textarea{
+    resize: none;
+    height: 10rem;
+}
+
+.FormFieldInput p, .FormFieldText p{
+    font-size: 10px;
+    color: var(--color-warning);
+    padding-left: 10px;
+}
+
+@media (max-width:531px){
+    .Contact form div{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:531px){
+    .Contact button{
+        width: 100%;
+    }
+}
