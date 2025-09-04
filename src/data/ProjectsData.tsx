@@ -8,6 +8,13 @@ const images = import.meta.glob(
 
 const projectsMeta = [
   {
+  file: "cabelereiro",
+  name: "Site Cabelereira",
+  link: "https://viniciusmendeslima.github.io/cabelereira/",
+  description:
+    "Site para apresentação dos serviços de estética e beleza oferecidos por Cabelereira. Desenvolvido em React + TypeScript com Vite, o projeto destaca os principais tratamentos, informações de contato e um layout moderno e responsivo.",
+},
+  {
   file: "estec",
   name: "ESCTEC Brasil Móveis S.A.",
   link: "https://viniciusmendeslima.github.io/estec-brasil-react/",
